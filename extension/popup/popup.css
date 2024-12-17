@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Press+Start+2P&display=swap');
+
+body {
+    background-image: url("chrome-extension://__MSG_@@extension_id__/images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: "Chakra Petch", serif;
+    font-weight: 500;
+    font-style: normal;
+    height: 264px;
+    width: 395px;
+    margin: 0;
+}
+
+#btn {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%; /* Ensures buttons stay centered */
+}
+
+.action-btn {
+    background-color: #fff;
+    border: 1px solid #d5d9d9;
+    border-radius: 8px;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    color: #0f1111;
+    cursor: pointer;
+    font-family: "Chakra Petch", serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 29px;
+    padding: 0 10px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    width: 120px;
+    margin: 0 5px;
+}
+
+.action-btn:hover {
+    background-color: #f7fafa;
+}
+
+.action-btn:focus {
+    border-color: #008296;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    outline: 0;
+}

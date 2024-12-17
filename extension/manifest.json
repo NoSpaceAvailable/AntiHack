@@ -1,0 +1,33 @@
+{
+    "name": "Anti hack v1.0",
+    "author": "NoSpaceAvailable",  
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "It seems that UIT has a lot of fb hackers, so I made this extension:)",
+    "permissions": ["storage", "tabs"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://*.facebook.com/*"],
+            "js": ["check.js"]
+        }
+    ],
+    "action": {
+      "default_popup": "popup/popup.html",
+      "default_icon": {
+        "16": "images/icon16.png",
+        "32": "images/icon32.png",
+        "48": "images/icon48.png",
+        "64": "images/icon64.png"
+      }
+    },
+    "icons": {
+        "16": "images/icon16.png",
+        "32": "images/icon32.png",
+        "48": "images/icon48.png",
+        "64": "images/icon64.png"
+    },
+    "host_permissions": ["*://*.facebook.com/*"]
+}
