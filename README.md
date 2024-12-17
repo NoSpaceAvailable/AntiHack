@@ -21,13 +21,13 @@
 
 # Demo
 Common scenarios:
-- Scenario 1: User navigate from site A to restricted site:
+- Scenario 1: User navigate from site A to restricted domain:
 ![case1](https://github.com/user-attachments/assets/cd9374ad-be9e-48e6-9f10-610becf7f7d5)
 
-- Scenario 2: User open a new tab and type in the restricted site:
+- Scenario 2: User open a new tab and type in the restricted domain:
 ![case2](https://github.com/user-attachments/assets/bedd85ba-3900-43de-bdea-332cfec5d0dc)
 
-- Scenario 3: User click on a link that redirect to the restricted site:
+- Scenario 3: User click on a link that redirect to the restricted domain:
 ![case3](https://github.com/user-attachments/assets/9672d7a9-514d-4d6f-b85d-eb6e7d03adfe)
 
 - Scenario 4: User entered wrong password (the tab will be closed):
